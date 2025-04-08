@@ -1,0 +1,11 @@
+numbers = [34, 23, 5, 67, 50]
+print("Анхны жагсаалт:",numbers)
+numbers.pop(2)
+numbers.insert(2,40)
+print("3 дахь элементийг өөрчилсний дараа:",numbers)
+numbers.append(89)
+print("Төгсгөлд элемент нэмсний дараа:",numbers)
+numbers.insert(0,22)
+print("Эхэнд элемент оруулсны дараа:",numbers)
+numbers.pop(3)
+print("Элемент устгасны дараа:",numbers)
